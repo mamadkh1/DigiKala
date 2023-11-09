@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+  <link rel="stylesheet" href="https://cdn.icony.ir/free/1.0.0/icony.css">
+  <link rel="stylesheet" href="../styles/Swiper.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/css codes of sliders.css">
+  <link rel="stylesheet" href="../dist/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>صفحه محصول</title>
+</head>
+
+<body>
+  <div class="Dark_background"></div>
+  <header class="header-main header  pb-2 m-0 sticky top-0 z-10 bg-white" id="header">
+    <div>
+      <img src="../pictures/title top/aa092cd01c7fbffce0ea2ed88d9115c01a849f14_1697986244.webp" alt="">
+    </div>
+    <div class="container-4xl-w mx-auto">
+      <div class="  my-3 flex items-center justify-between ">
+        <div class="flex items-center">
+          <div class="mx-5 hidden md:block">
+            <img src="../pictures/logo/logo.svg" class="w-28 h-8" alt="">
+          </div>
+          <div class="flex bg-gray-200 items-center sm:w-full p-2 rounded-lg">
+            <i class="fa-sharp fa-regular fa-magnifying-glass mx-2 opacity-50"></i>
+            <input type="text" name="" id="" class="bg-gray-200 focus:outline-none sm:w-full" placeholder="جستجو  ">
+          </div>
+
+        </div>
+        <div class=" flex items-center ">
+          <div class="hidden md:flex items-center login-box mx-5">
+            <a href="login.html" class="">
+              <a href="login.html" class="p-2 flex items-center"> <i
+                  class="fa-regular fa-right-to-bracket fa-rotate-180 fa-lg mx-1 flex self-center "></i><span>ورود</span></a>
+              <div class="divar block sm:hidden "></div>
+              <a href="login.html" class="p-2">ثبت نام</a>
+            </a>
+          </div>
+          <div class="divar-2 hidden md:block"></div>
+          <a href="#" class="mx-4">
+            <i class="fa-regular fa-cart-shopping fa-flip-horizontal fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menu-2 hidden md:flex The-second-part-of-the overflow-hidden justify-between items-center"
+        id="sec-2-menu">
+        <div class="flex items-center opacity-70">
+          <button class="dropbtn Open-menu-button p-0.5 font-bold hover-button"><i
+              class="fa-regular fa-bars mx-2"></i><span>دسته بندی</span>
+          </button>
+          <div class="divar-2"></div>
+          <div>
+            <a href="#" class="p-1 hover-button">
+              <i class="fa-regular  fa-badge-percent fa-lg"></i>
+              <span>شگفت انگیز</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="p-1 mb-0 hover-button">
+              <i class="fa-regular  fa-store fa-lg"></i>
+              <span>سوپر مارکت</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+          <div class="md:hidden lg:block">
+            <a href="#" class="p-1 hover-button">
+              <i class="fa-regular fa-gift-card fa-lg"></i>
+              <span>کارت هدیه</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="p-1 hover-button">
+              <i class="fa-regular fa-fire-flame-curved fa-lg"></i>
+              <span>پر فروش ترین ها</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+          <div class="divar-2"></div>
+          <div>
+            <a href="#" class=" p-1 hover-button">
+              <span>سوالی دارید؟</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class=" p-1 hover-button">
+              <span>در دیجی کالا بفروشید</span>
+              <span class="hover-line"></span>
+            </a>
+          </div>
+        </div>
+        <div class="ml-1 cursor-pointer relative">
+          <i class="fa-regular fa-location-dot fa-lg ml-0.5"></i>
+          <button class="Open-city-button">شهر خود را انتخاب کنید</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="flex items-center">
+    <div class="dropdown-content text-base bg-white  ">
+      <div id="mySidenav" class="sidenav flex flex-col justify-start">
+        <div class="flex justify-between items-center mx-3">
+          <img src="../pictures/logo/logo.svg" alt="" width="100" height="100">
+          <button class="close-menu-button"><i class="fa-regular fa-xmark fa-lg "></i></button>
+        </div>
+        <a href="#" class="flex items-center"><i
+            class="fa-regular fa-mobile-notch fa-xl mx-1"></i><span>موبایل</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-laptop fa-lg mx-1"></i>کالای دیجیتال</a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-couch fa-lg mx-1"></i>خانه و آشپزخانه</a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-shirt fa-lg mx-1"></i></i><span>مد و
+            پوشاک</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular  fa-store fa-lg mx-1"></i><span>کالا های
+            سوپرمارکتی</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-pen-ruler fa-lg mx-1"></i><span>لوازم
+            تحریر</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-teddy-bear fa-lg mx-1"></i><span>اسباب بازی
+            و کودک </span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-heart-circle-check fa-lg mx-1"></i><span>زیبایی و
+            سلامت</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-screwdriver-wrench fa-lg mx-1"></i><span>ابزار
+            آلات و تجهیزات</span></a>
+        <a href="#" class="flex items-center"><i class="fa-regular fa-cars fa-lg mx-1"></i><span>خوردو و موتور
+            سیکلت</span></a>
+        <a href="#" class="flex items-center"><i
+            class="fa-regular fa-hand-holding-seedling fa-lg mx-1"></i><span>محصولات گیاهی</span></a>
+        <span class="hover-line"></span>
+      </div>
+    </div>
+  </div>
+  <div class=" justify-center w-full hidden md:flex bg-white ">
+    <div class=" select-city w-1/3 coli fixed top-20 z-50">
+      <div
+        class="box-shadow p-2 City-selection-section bg-white rounded-lg  transition-all duration-300 Choose-the-province">
+        <div class="flex justify-between items-center p-3 seleced-city sticky top-0 bg-white">
+          <span>انتخاب شهر</span>
+          <button class="close-select-city-button"><i class="fa-regular fa-xmark fa-lg "></i></button>
+        </div>
+        <div class="max-h-96 overflow-y-scroll Province_selection_buttons bg-white">
+          <div id="div-ostan">
+            <div class="text-cyan-500 p-3 my-2 cursor-pointer">
+              <i class="fa-regular fa-map-location-dot fa-lg mx-3"></i>
+              <span>مکان یابی خودکار</span>
+            </div>
+            <button class="flex items-center justify-between p-3 w-full" id="azarbayejanShargi"
+              value="azarbayejanShargi">
+              <span>آذربایجان شرقی</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="azarbayejanGarbi" value="azarbayejanGarbi">
+              <span>آذربایجان غربی</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="ardebil" value="ardebil">
+              <span>اردبیل</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="esfahan" value="esfahan">
+              <span>اصفهان</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="alborz" value="alborz">
+              <span>البرز</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="elam" value="elam">
+              <span>ایلام</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="boShehr" value="boShehr">
+              <span>بوشهر</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+            <button class="flex items-center justify-between p-3 w-full" id="khorasanShomali" value="khorasanShomali">
+              <span>خراسان شمالی</span>
+              <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lg:px-5 font-family">
+    <div class="items-center flex flex-wrap lg:mb-5">
+      <nav class="py-2 px-5 lg:px-0 grow min-w-0">
+        <div>
+          <div class="Swiper_Displays_the_page_the_user_is_on mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-neutral-500 text-body-2">
+                <a href="#">
+                  <span>دیجی کالا</span>
+                  <span class="mx-3">/</span>
+                </a>
+              </div>
+              <div class="swiper-slide text-neutral-500 text-body-2">
+                <a href="#">
+                  <span>موبایل</span>
+                  <span class="mx-3">/</span>
+                </a>
+              </div>
+              <div class="swiper-slide text-neutral-500 text-body-2">
+                <a href="#">
+                  <span>گوشی موبایل</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hidden lg:flex items-center mr-auto py-2">
+        <a href="#" class="ml-8 text-body-2 text-neutral-400 flex items-center">
+          <span>ثبت آگهی در پیندو</span>
+          <div class="mx-2 flex">
+            <i class="fa-regular fa-trumpet fa-beat"></i>
+          </div>
+        </a>
+        <a href="#" class="ml-8 text-body-2 text-neutral-400 flex items-center">
+          <span>فروش در دیجی کالا</span>
+          <div class="mx-2 flex">
+            <i class="fa-regular fa-shop"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col lg:flex-row">
+      <div class="lg:ml-4  sm:styles_InfoSection__rightSection__PiYpa">
+        <div class="flex items-center text-h5 py-2 mx-5 lg:mx-0">
+          <div></div>
+        </div>
+        <div class="flex flex-col items-center mr-2 mb-2">
+          <div class="flex">
+            <div class="flex flex-col gap-4 text-neutral-600">
+              <div>
+                <button>
+                  <i class="fa-regular fa-heart fa-lg like"></i>
+                </button>
+              </div>
+              <div>
+                <button>
+                  <i class="fa-regular fa-share-nodes fa-rotate-180 fa-lg"></i>
+                </button>
+              </div>
+              <div>
+                <button>
+                  <i class="fa-regular fa-bell fa-lg"></i>
+                </button>
+              </div>
+              <div>
+                <button>
+                  <i class="fa-regular fa-chart-line fa-lg"></i>
+                </button>
+              </div>
+              <div>
+                <button>
+                  <i class="fa-regular fa-bars fa-lg"></i>
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <a href="#">
+                <img class="w-full inline-block h-full"
+                  src="../pictures/Product page photos/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.webp"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center mt-5 mb-3" width="474.46875" height="82">
+            <div class=" rounded cursor-pointer border-complete-200 relative flex items-center justify-center p-1 ml-2">
+              <div class="styles_GalleryDesktop__blur__Tu0Ok" style="width: 72px; height: 72px; line-height: 0;">
+                <img class="w-full inline-block"
+                  src="../pictures/cart img/9c1d8d2e744f37352e0cc5e112220dbcbae17a59_1688202959.webp" width="72"
+                  height="72"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </div>
+              <div class="flex absolute"><i class="fa-brands fa-youtube fa-2xl" style="color: #787878;"></i></div>
+            </div>
+            <div class=" rounded cursor-pointer border-complete-200 relative flex items-center justify-center p-1 ml-2">
+              <div style="width: 72px; height: 72px; line-height: 0;">
+                <img class="w-full inline-block"
+                  src="../pictures/cart img/4c7d4655029291e42c3ad06c33e916bd26c994a2_1677411588.webp" width="72"
+                  height="72"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </div>
+              <div class="flex absolute"></div>
+            </div>
+            <div class=" rounded cursor-pointer border-complete-200 relative flex items-center justify-center p-1 ml-2">
+              <div style="width: 72px; height: 72px; line-height: 0;">
+                <img class="w-full inline-block"
+                  src="../pictures/cart img/9c1d8d2e744f37352e0cc5e112220dbcbae17a59_1688202959.webp" width="72"
+                  height="72"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </div>
+              <div class="flex absolute"></div>
+            </div>
+            <div class=" rounded cursor-pointer border-complete-200 relative flex items-center justify-center p-1 ml-2">
+              <div style="width: 72px; height: 72px; line-height: 0;">
+                <img class="w-full inline-block"
+                  src="../pictures/cart img/b9bc0a701d34c7a5bb84f708dbcb384b5ebee01f_1677411590.webp" width="72"
+                  height="72"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </div>
+              <div class="flex absolute"></div>
+            </div>
+            <div class=" rounded cursor-pointer border-complete-200 relative flex items-center justify-center p-1 ml-2">
+              <div class="styles_GalleryDesktop__blur__Tu0Ok" style="width: 72px; height: 72px; line-height: 0;">
+                <img class="w-full inline-block"
+                  src="../pictures/cart img/4a4715bfcef7dc76b424909b047c6c50fded156f_1689611229.webp" width="72"
+                  height="72"
+                  alt="خرید و قیمت گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  title="گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو"
+                  style="object-fit: contain;">
+              </div>
+              <div class="flex absolute"><i class="fa-duotone fa-circle-ellipsis fa-2xl"
+                  style="--fa-primary-color: #696969; --fa-secondary-color: #9c9c9c;"></i></div>
+            </div>
+          </div>
+          <div class="hidden lg:flex items-center"><span>
+              <div class="rounded-lg cursor-pointer ml-9">
+                <div class="flex">
+                  <div class="flex mt-1"><i class="fa-regular fa-circle-info mx-1" style="color: #5f5f5f;"></i></div><span class="mr-2 text-body-2 text-neutral-500">گزارش نادرستی مشخصات</span>
+                </div>
+              </div>
+            </span><span class="text-caption text-neutral-400"> DKP-8366616</span></div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex flex-col px-2 w-full">
+          <div class="flex items-center justify-start">
+            <div class=" text-secondary-500 text-body-2">
+              <a href="#">
+                <span>اپل</span>
+                <span class="mx-3">/</span>
+              </a>
+            </div>
+            <div class=" text-secondary-500 text-body-2">
+              <a href="#">
+                <span>گوشی موبایل اپل</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <span>گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو
+            </span>
+          </div>
+
+          <div class="flex items-center">
+            <div class="flex items-center">
+              <span class="text-neutral-300 ml-2 text-body-2">Apple iPhone 13 CH Dual SIM 128GB And 4GB RAM Mobile
+                Phone
+                -
+                Not Activate</span>
+              <div class="bg-neutral-200 w-7 grow styles_VariantInfo__enTitleLine__HNqBN"></div>
+            </div>
+          </div>
+          <div class="flex items-center">
+          </div>
+          <div class="flex items-center">
+            <div class="flex items-center mt-2">
+              <div style="width: 16px; height: 16px; line-height: 0;">
+                <i class="fa-sharp fa-solid fa-star" style="color: #ffc800;"></i>
+
+              </div>
+              <p class="mr-1 text-body-2">۴.۴</p>
+              <p class="mr-1 text-caption text-neutral-300">(۲۷۳۴)</p>
+              <div class="flex mr-1 text-neutral-300">
+                <i class="fa-duotone fa-circle fa-2xs"></i>
+              </div>
+            </div>
+            <div class="flex items-center mt-2"><span
+                class="inline-flex items-center text-body-2 text-secondary-500 mx-1  text-body-2"><span>۴۴۵۱
+                  دیدگاه</span></span>
+              <div class="flex text-neutral-300">
+                <i class="fa-duotone fa-circle fa-2xs"></i>
+              </div>
+            </div><span class="inline-flex items-center  text-secondary-500 text-body-2 mt-2 mx-1"><span>۱۴۰۰
+                پرسش</span></span>
+          </div>
+          <div class="flex items-center mt-2">
+            <div class="flex ml-1">
+              <i class="fa-regular fa-thumbs-up " style="color: #00d12a;"></i>
+            </div>
+            <p class="ml-2 text-neutral-600 text-body-2">۹۲% (۹۹۹ نفر) از خریداران، این کالا را پیشنهاد کرده‌اند</p>
+            <div>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center mb-3">
+              <p>رنگ: <span id="selectedColor">مشکی</span></p>
+
+            </div>
+            <div class="flex items-center container-color gap-5">
+              <div class="color w-8 h-8 rounded-full disabled-color bg-black" data-color="مشکی"></div>
+              <div class="color w-8 h-8 rounded-full disabled-color bg-white" data-color="سفید"></div>
+              <div class="color w-8 h-8 rounded-full  disabled-color bg-pink-600" data-color="صورتی"></div>
+              <div class="color w-8 h-8 rounded-full  disabled-color bg-red-500" data-color="قرمز"></div>
+              <div class="color w-8 h-8 rounded-full  disabled-color bg-blue-600" data-color="آبی"></div>
+              <div class="color w-8 h-8 rounded-full  disabled-color bg-green-600" data-color="سبز"></div>
+            </div>
+          </div>
+          <div class="mt-2 mb-4 lg:mb-2 mx-5 lg:mx-0">
+            <p class="mb-3 text-h5"> بیمه </p>
+            <div class="bg-white flex border rounded-lg">
+              <label class="flex items-center  py-5 shrink-0 px-3 border-l">
+                <input type="checkbox" class="w-5">
+                <span
+                  class="inline-flex justify-center items-center cursor-pointer rounded-small shrink-0 styles_Checkbox__checkbox__z1B5a styles_Checkbox__checkbox--secondary__FspFz">
+                  <div class="flex styles_Checkbox__icon__AaKB1"></div>
+                </span>
+              </label>
+              <div class="grow p-2">
+                <p class="text-body-2 text-neutral-700">بیمه تجهیزات دیجیتال - بیمه پارسیان</p>
+                <div class="flex items-center text-xs mt-1">
+                  <div class="flex items-center ml-auto">
+                    <div class="flex items-center  ml-1">
+                      <div class="text-white px-2 flex items-center justify-center  bg-red-500 rounded-xl ml-1">
+                        <span class="text-body-2">۲۰٪</span>
+                      </div>
+                      <div class="text-body-2 text-neutral-300 line-through">۱,۰۲۲,۴۲۰</div>
+                    </div>
+                    <div class="flex items-center justify-end gap-1  text-neutral-400 text-body1-strong grow">
+                      <span data-testid="price-final">۸۱۸,۵۹۰</span>
+                      <div class="flex"><i class="icony icony-toman"></i></div>
+                    </div>
+                  </div><span
+                    class="inline-flex items-center cursor-pointer styles_Anchor--secondary__3KsgY text-button-2"
+                    data-cro-id="click_on_details"><span>جزییات</span>
+                    <div class="flex"><i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i></div>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="mx-5 lg:mx-0 lg:pb-3 styles_InfoSection__wrapper__e2TLb border-b pb-1">
+            <div class="break-words py-3">
+              <div class="flex items-center grow">
+                <p class="grow text-body-3 text-neutral-900"><span class="relative">ویژگی‌ها</span></p>
+              </div>
+            </div>
+            <li class="flex items-start mb-1">
+              <div class="flex items-center">
+                <div class="flex"><i class="fa-duotone fa-circle fa-2xs mx-1"></i></div>
+                <p class="text-neutral-500 text-body-2">فناوری صفحه‌نمایش : </p>
+              </div>
+              <p class="text-body-2 mr-2 text-neutral-700">Super Retina XDR OLED</p>
+            </li>
+            <li class="flex items-start mb-1">
+              <div class="flex items-center">
+                <div class="flex"><i class="fa-duotone fa-circle fa-2xs mx-1"></i></div>
+                <p class="text-neutral-500 text-body-1">رزولوشن عکس : </p>
+              </div>
+              <p class="text-body-2 mr-2 text-neutral-700">12 مگاپیکسل</p>
+            </li>
+            <li class="flex items-start mb-1">
+              <div class="flex items-center">
+                <div class="flex"><i class="fa-duotone fa-circle fa-2xs mx-1"></i></div>
+                <p class="text-neutral-500 text-body-2">نسخه سیستم عامل : </p>
+              </div>
+              <p class="text-body-2 mr-2 text-neutral-700">iOS 15</p>
+            </li>
+            <li class="flex items-start mb-1">
+              <div class="flex items-center">
+                <div class="flex"><i class="fa-duotone fa-circle fa-2xs mx-1"></i></div>
+                <p class="text-neutral-500 text-body-1">اندازه : </p>
+              </div>
+              <p class="text-body1-strong mr-2 text-neutral-700">6.1</p>
+            </li>
+          </ul>
+          <div class="radius my-3 mx-5 lg:mx-0">
+            <div class="flex">
+              <div class="flex mt-1">
+                <i class="fa-regular fa-circle-info mx-1" style="color: #5f5f5f;"></i>
+              </div>
+              <span class="mr-2 text-body-2 text-neutral-500">امکان برگشت کالا در گروه موبایل با دلیل "انصراف از خرید"
+                تنها در صورتی مورد قبول است که پلمب کالا باز نشده باشد.
+                تمام گوشی‌های دیجی‌کالا ضمانت رجیستری دارند. در صورت وجود مشکل رجیستری، می‌توانید بعد از مهلت قانونی
+                ۳۰
+                روزه، گوشی خریداری‌شده را مرجوع کنید.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="border hidden md:block rounded-lg bg-neutral-50 mr-2 px-2">
+            <div class="flex flex-col">
+              <div class="flex items-center justify-between p-4">
+                <span>فروشنده</span>
+                <span>
+                  <a href="#">
+                    <span class="flex text-secondary-500 items-center text-body-2">
+                      11 فروشنده دیگر
+                    </span>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div>
+              <div class="py-3 flex grow border-b">
+                <div class="ml-4">
+                  <div class="flex"><img width="24" height="24" class="rounded-r-lg" src="../pictures/logo/download.png"
+                      alt=""></div>
+                </div>
+                <div class="flex w-full">
+                  <div>
+                    <div class="flex items-center mb-2 lg:mb-1">
+                      <p class="text-neutral-700 ml-2 text-body-3">دیجی‌کالا</p>
+                    </div>
+                    <div class="w-full flex items-center content-center text-body-2">
+                      <div class="pl-2 flex items-center divider">
+                        <p class="ml-1 text-body-2 text-green-500">۸۱.۲%</p>
+                        <p class="text-neutral-500 whitespace-nowrap">رضایت از کالا</p>
+                      </div>
+                      <div class="divar"></div>
+                      <div class="pr-2 flex items-center">
+                        <p class="text-neutral-500 ml-1">عملکرد</p>
+                        <p class="whitespace-nowrap text-body-2 text-green-500">عالی</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full px-4 border-b flex items-center">
+                <div class="py-3  grow  flex items-center">
+                  <div class="ml-4">
+                    <div class="flex"><i class="fa-regular fa-shield-check fa-lg"></i></div>
+                  </div>
+                  <div class="flex w-full">
+                    <p class="text-button-2 text-neutral-700">گارانتی ۱۸ ماهه شرکتی</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full px-4 border-b">
+                <div class="py-3 flex grow">
+                  <div class="flex w-full">
+                    <div class="flex flex-col w-full relative "><span class="flex items-center mb-1">
+                        <div class="flex items-center w-full ml-3">
+                          <div class="flex items-center">
+                            <i class="fa-duotone fa-rectangle-history fa-rotate-90 mx-1"
+                              style="--fa-primary-color: #0561ff; --fa-secondary-color: #0561ff;"></i>
+                          </div><span class="text-body-2 text-neutral-700">موجود در انبار دیجی‌کالا</span>
+                        </div>
+                        <a href="#">
+                          <i class="fa-regular fa-chevron-up fa-rotate-270 fa-lg"></i>
+                        </a>
+                      </span>
+                      <ul class="flex flex-col">
+                        <li class="flex ml-3 items-center">
+                          <div class="relative flex items-center justify-center  self-stretch ml-3"
+                            style="width: 24px; min-width: 24px;">
+                            <div class="flex"><i class="fa-solid fa-circle fa-2xs" style="color: #005eff;"></i></div>
+                            <span
+                              class="absolute block bg-neutral-200 top-0 listItem-bullet-slot_ListItemBulletSlot__line__jeFG5"
+                              style="height: calc(50% - 5px);"></span><span
+                              class="absolute block bg-neutral-200 bottom-0 listItem-bullet-slot_ListItemBulletSlot__line__jeFG5"
+                              style="height: calc(50% - 5px);"></span>
+                          </div>
+                          <div class="flex mx-1"><i class="fa-regular fa-truck fa-flip-horizontal"
+                              style="color: #ee1717;"></i></div>
+                          <p class="text-body-2 text-neutral-500 mr-1 ellipsis">ارسال دیجی‌کالا</p>
+                        </li>
+                        <li class="flex ml-3 items-center">
+                          <div class="relative flex items-center justify-center self-stretch ml-3"
+                            style="width: 24px; min-width: 24px;">
+                            <div class="flex"><i class="fa-solid fa-circle fa-2xs" style="color: #005eff;"></i></div>
+                            <span
+                              class="absolute block bg-neutral-200 top-0 listItem-bullet-slot_ListItemBulletSlot__line__jeFG5"
+                              style="height: calc(50% - 5px);"></span>
+                          </div>
+                          <div class="flex mx-1"><i class="fa-regular fa-timer " style="color: #0043b8;"></i></div>
+                          <p class="text-body-2 text-neutral-500 mr-1 ellipsis">ارسال امروز (فعلا در شهر تهران و کرج)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full px-4 flex items-center border-b">
+                <div class="py-3  grow flex items-center">
+                  <div class="ml-4">
+                    <div style="width: 24px; height: 24px; line-height: 0;"><img class="w-full inline-block"
+                        src="../pictures/cart img/club-point.svg" width="24" height="24" alt="دیجی‌کلاب" title=""
+                        style="object-fit: contain;"></div>
+                  </div>
+                  <div class="flex w-full">
+                    <p class="text-body-2 text-neutral-700">۱۵۰ امتیاز دیجی‌کلاب</p>
+                    <div class="mr-2 mt-1">
+                      <div>
+                        <div class="flex cursor-pointer"><i class="fa-regular fa-circle-info"
+                            style="color: #b8b8b8;"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="relative w-full lg:px-4 mt-3 lg:pb-4">
+                <div class="w-full  z-3 bg-transparent">
+                  <div>
+                    <div class="px-2 py-2 styles_Hint--warning__yXWrd rounded-lg mb-4">
+                      <div class="flex items-center">
+                        <div class="flex">
+                          <i class="fa-regular fa-circle-info mx-1" style="color: #f9a825;"></i>
+                        </div>
+                        <div class="flex items-center justify-between w-full ">
+                          <p class="text-body-2 text-neutral-700">با قیمت ۳۷,۴۹۰,۰۰۰ تومان از فروشندگان دیگر</p>
+                          <div class="flex">
+                            <i class="fa-regular fa-chevron-up fa-rotate-270 fa-xs"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <div class="flex justify-start px-4 mr-auto text-h3">
+                  <div class="flex items-center justify-end w-full"><span class="text-lg ml-1 text-neutral-800"
+                      data-testid="price-no-discount">۳۷,۵۱۵,۰۰۰</span></div>
+                  <div class="flex flex-row items-center">
+                    <div class="flex mr-1"><i class="icony icony-toman"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center px-4"><button
+                  class="relative flex items-center py-3 styles_btn--primary__y0GEv rounded-lg w-full">
+                  <div class="flex items-center justify-center relative grow">افزودن به سبد</div>
+                </button></div>
+            </div>
+            <a class="w-full" href="#">
+              <div
+                class="flex justify-between items-center lg:border-complete py-2 px-5 lg:rounded-small styles_InfoSection__sectionBorder__IOAuB styles_InfoSection__price__Tdpil">
+                <div class="flex items-center">
+                  <div class="flex ml-2"><i class="fa-regular fa-circle-info mx-1" style="color: #5f5f5f;"></i></div>
+                  <span class="text-neutral-600 text-xs">فرآیند قیمت‌گذاری و نظارت بر قیمت</span>
+                </div>
+                <div class="flex"><i class="fa-regular fa-chevron-up fa-rotate-270 "></i></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="w-full bg-neutral-000 footer border-t border-n-200 pt-8 mt-12">
+    <div class="container-4xl-w mx-auto">
+      <div class="px-5">
+        <div class="flex justify-between items-center select-none">
+          <div class="ml-4" style="height: 30px; line-height: 0;">
+            <img class="w-full inline-block" src="../pictures/logo/digi persian.svg" height="30"
+              alt="digikala - دیجی کالا" title="" style="object-fit: contain;">
+          </div>
+          <button class="scrollButton relative flex items-center border rounded-md justify-center px-3 sm:px-4 py-2">
+            <div class="flex items-center justify-center text-neutral-400 relative grow">
+              <span class=" ml-2 back-to-top">بازگشت به بالا</span>
+              <i class="fa-regular fa-chevron-up  fa-xs"></i>
+            </div>
+          </button>
+        </div>
+        <div class="mb-8 mt-4 md:mt-3 md:mb-0 flex items-center flex-wrap lg:flex-nowrap text-body-2 text-neutral-700">
+          <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+          <div class="px-5 text-neutral-400 hidden md:block">|</div>
+          <p class="w-full mt-1 md:mt-0">۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+        </div>
+        <div class=" my-8 items-center justify-between  hidden lg:flex">
+          <a href="#" class="flex py-3 flex-col items-center justify-between text-center grow">
+            <div style="width: 56px; height: 56px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/footer image/express-delivery.svg" width="56"
+                height="56" alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" title="" style="object-fit: cover;">
+            </div>
+            <p class="text-caption text-neutral-700">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+          </a>
+          <a href="#" class="flex py-3 flex-col items-center justify-between text-center grow">
+            <div style="width: 56px; height: 56px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/footer image/cash-on-delivery.svg" width="56"
+                height="56" alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" title="" style="object-fit: cover;">
+            </div>
+            <p class="text-caption text-neutral-700">امکان پرداخت در محل</p>
+          </a>
+          <a href="#" class="flex py-3 flex-col items-center justify-between text-center grow">
+            <div style="width: 56px; height: 56px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/footer image/support.svg" width="56" height="56"
+                alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" title="" style="object-fit: cover;">
+            </div>
+            <p class="text-caption text-neutral-700">۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ</p>
+          </a>
+          <a href="#" class="flex py-3 flex-col items-center justify-between text-center grow">
+            <div style="width: 56px; height: 56px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/footer image/days-return.svg" width="56" height="56"
+                alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" title="" style="object-fit: cover;">
+            </div>
+            <p class="text-caption text-neutral-700">هفت روز ضمانت بازگشت کالا</p>
+          </a>
+          <a href="#" class="flex py-3 flex-col items-center justify-between text-center grow">
+            <div style="width: 56px; height: 56px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/footer image/original-products.svg" width="56"
+                height="56" alt="اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس" title="" style="object-fit: cover;">
+            </div>
+            <p class="text-caption text-neutral-700">ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ</p>
+          </a>
+        </div>
+        <div class="flex  w-full justify-between mb-8">
+          <div class="block lg:grow w-6/12 lg:w-unset">
+            <p class="text-neutral-700 text-h6 mb-2 block">با دیجی‌کالا</p>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">اتاق خبر دیجی‌کالا
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              فروش در دیجی‌کالا
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              فروش در دیجی‌کالا
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              فرصت‌های شغلی
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              گزارش تخلف در دیجی‌کالا
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              تماس با دیجی‌کالا
+            </a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">
+              درباره دیجی‌کالا
+            </a>
+          </div>
+          <div class="block lg:grow w-6/12 lg:w-unset">
+            <p class="text-neutral-700 text-h6 mb-2 block">خدمات مشتریان</p>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">پاسخ به
+              پرسش‌های متداول</a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">رویه‌های بازگرداندن کالا</a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">شرایط استفاده</a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">حریم خصوصی</a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href=" #">گزارش باگ</a>
+          </div>
+          <div class=" lg:grow w-6/12 lg:w-unset hidden md:block">
+            <p class="text-neutral-700 text-h6 mb-2 block">راهنمای خرید از دیجی‌کالا</p><a
+              class="text-body-1 text-neutral-500 mb-2 block" href="#">نحوه ثبت سفارش</a><a
+              class="text-body-1 text-neutral-500 mb-2 block" href="#">رویه ارسال سفارش</a>
+            <a class="text-body-1 text-neutral-500 mb-2 block" href="#">شیوه‌های پرداخت
+            </a>
+          </div>
+          <div class=" lg:grow w-6/12 lg:w-unset hidden md:block">
+            <div class="w-full flex lg:block lg:flex-row justify-between items-start mt-8 sm:mt-0">
+              <h4 class="mb-3 text-h6 text-neutral-700">همراه ما باشید!</h4>
+              <div class="flex items-center">
+                <a href="#" class="ml-6 lg:ml-8 text-neutral-500">
+                  <img src="../pictures/Digikala social network icons/instagram icon.png" class="opacity-50" height="40"
+                    width="40" alt="">
+                </a>
+                <a href="#" class="ml-6 lg:ml-8 text-neutral-500">
+                  <img src="../pictures/Digikala social network icons/x icon.png" class="opacity-50" height="40"
+                    width="40" alt="">
+                </a>
+                <a href="#" class="ml-6 lg:ml-8 text-neutral-500">
+                  <img src="../pictures/Digikala social network icons/linkdin icon.png" class="opacity-50" height="40"
+                    width="40" alt="">
+                </a>
+                <a href="#" class="ml-6 lg:ml-8 text-neutral-500">
+                  <img src="../pictures/Digikala social network icons/aparat icon.png" class="opacity-50" height="40"
+                    width="40" alt="">
+                </a>
+
+              </div>
+              <div class="w-full flex flex-col items-start mt-4 sm:mt-8">
+                <h4 class="hidden md:block text-h6 text-neutral-700 mb-3">با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر
+                  شوید
+                </h4>
+                <div class="w-full flex items-center">
+                  <div class="flex flex-start w-full">
+                    <label for="#" class="grow w-full">
+                      <div class="px-2 flex items-center bg-neutral-100 rounded-lg">
+                        <div class="grow p-3 text-sm">
+                          <input type="text" class="focus:outline-none email-input" placeholder="ایمیل شما">
+                        </div>
+                      </div>
+                      </p>
+                    </label>
+                    <button
+                      class=" flex items-center px-3 rounded-lg pointer-events-none text-white bg-neutral-200 mr-2 send-email">ارسال</button>
+
+                  </div>
+                </div>
+                <p class="error-message "></p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div
+          class="flex flex-col lg:flex-row mb-7 lg:px-5 rounded-md text-neutral-000 select-none py-2 items-center justify-between BaseLayoutStaticFooter_BaseLayoutStaticFooter__appSection__wPeRu">
+          <div class="flex items-center text-white mb-4 lg:mb-0">
+            <div style="width: 44px; height: 44px; line-height: 0;">
+              <img class="w-full inline-block" src="../pictures/logo/footerlogo2.webp" width="44" height="44"
+                alt="دیجی‌کالا" title="" style="object-fit: cover;">
+            </div>
+            <div class="text-h5 shrink-0 mr-4"> دانلود اپلیکیشن دیجی‌کالا</div>
+          </div>
+          <div class="flex items-center justify-end grow">
+            <div class="flex items-center justify-center lg:justify-end flex-wrap lg:grow">
+              <a href="#" class="m-2">
+                <div style="height: 44px; border-radius: 4px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/footer image/coffe-bazzar.svg" height="44"
+                    alt="دریافت از کافه‌بازار" title="" style="object-fit: contain; border-radius: 4px; height: 44px;">
+                </div>
+              </a>
+              <a href="#" class="m-2">
+                <div style="height: 44px; border-radius: 4px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/footer image/myket.svg" height="44"
+                    alt="دریافت از مایکت" title="" style="object-fit: contain; border-radius: 4px;">
+                </div>
+              </a>
+              <a href="#" class="m-2">
+                <div style="height: 44px; border-radius: 4px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/footer image/sib-app.svg" height="44"
+                    alt="دریافت از سیب اپ" title="" style="object-fit: contain; border-radius: 4px;">
+                </div>
+              </a>
+              <a href="#" class="hidden lg:block mr-4">
+                <div class="border-complete-200 bg-neutral-000"
+                  style="width: 44px; height: 44px; border-radius: 4px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/footer image/More.svg" width="44" height="44" alt=""
+                    title="" style="object-fit: cover; border-radius: 4px;">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-start justify-between border-t py-8 border-n-200 flex-wrap lg:flex-nowrap">
+          <div class="grow">
+            <div class="relative lg:ml-10 ml-0 text-neutral-500  overflow-hidden">
+              <h1>
+                <strong class="text-lg font-black">
+                  فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین
+                </strong>
+              </h1>
+              <p class="text-body-2 ellipsis-7">یک<strong> خرید</strong> اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند
+                کالاهایی
+                متنوع، باکیفیت و دارای
+                قیمت مناسب را در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را
+                داشته باشد.<br>
+                یکی از مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌ اینترنتی دیگری، این است که کالای خریداری شده
+                چه زمانی به دستشان می‌رسد. دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌ مقصد کالا و
+                همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد. هر یک&nbsp;از <a href="#">روش های ارسال دیجی کالا</a>
+                شرایط و ویژگی‌های خاص
+                خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از
+                خدمات دیجی‌کالا، این فروشگاه اینترنتی در بخشی از </p>
+            </div>
+            <span class="flex mt-2 text-secondary-500 text-xs items-center user-select-none"><span>مشاهده
+                بیشتر</span>
+              <div class="flex">
+                <i class="fa-regular fa-chevron-up  fa-xs fa-rotate-270"></i>
+              </div>
+            </span>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-full flex items-center mt-4 lg:mt-0 justify-center lg:justify-end">
+              <div class="p-2 lg:p-4 flex items-center justify-center border-complete-200 rounded-md mr-2">
+                <div style="width: 75px; height: 75px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/A symbol of trust/rezi.webp" width="75" height="75"
+                    alt="نشان ملی ثبت" title="" style="object-fit: contain;">
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex items-center mt-4 lg:mt-0 justify-center lg:justify-end">
+              <div class="p-2 lg:p-4 flex items-center justify-center border-complete-200 rounded-md mr-2">
+                <div style="width: 75px; height: 75px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/A symbol of trust/kasbokar.webp" width="75"
+                    height="75" alt="نماد کسب و کار های مجازی" title=""
+                    style="object-fit: contain; width: 75px; height: 75px;">
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex items-center mt-4 lg:mt-0 justify-center lg:justify-end">
+              <div class="p-2 lg:p-4 flex items-center justify-center border-complete-200 rounded-md mr-2">
+                <div style="width: 75px; height: 75px; line-height: 0;">
+                  <img class="w-full inline-block" src="../pictures/A symbol of trust/logo.png" width="75" height="75"
+                    alt="نماد کسب و کار های مجازی" title=""
+                    style="object-fit: contain;width: 75px;height: 75px !important;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex text-caption text-neutral-500 text-center items-center flex-col justify-between border-t py-8">
+          برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت
+          نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="../js/swiper.js"></script>
+<script src="../js/app.js"></script>
+
+
+
+</html>
